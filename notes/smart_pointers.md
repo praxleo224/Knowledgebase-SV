@@ -115,6 +115,8 @@ int main() {
 #### Shared Pointer
 - syntax similar to the unique_ptr
 - It expresses shared ownsership. Reference counting.
+- using make_shared<T> more efficient as it allocates continous space.
+- to delete the controlled object when the counts become 0
 
 ![](../assets/sharedPtr.png)
 ![](../assets/class.png)
@@ -124,6 +126,8 @@ to object of derived class. Both will be pointing to a different offset in the
 heap allocated object.
 
 ![](../assets/sharedPtr2.png)
+
+
 
 
 
